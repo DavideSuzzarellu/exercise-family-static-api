@@ -41,7 +41,7 @@ def handle_hello():
         data = request.json
         result = jackson_family.add_member(data)
         response_body['message'] = 'Miembro agreagado correctamente'
-        response_body['result' ]= result
+        response_body['result' ] = result
         return response_body, 200
 
 
